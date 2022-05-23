@@ -12,5 +12,5 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-12 text-center">
                         <div class="intro-content">
-                            <h1>IKAZE <strong class="text-primary">Tumba</strong>. </h1>
+                            <h1>IKAZE TUMBA SYSTEM <strong class="text-primary">Tumba</strong>. </h1>
                         </div>
