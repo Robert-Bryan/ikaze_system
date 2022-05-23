@@ -14,7 +14,7 @@ if (isset ($_POST['first_name'])  && isset($_POST['last_name']) && isset($_POST[
   $sql = 'UPDATE student SET first_name=:first_name, last_name=:last_name, gender=:gender, phone_number=:phone_number, reg_number=:reg_number, email=:email, department=:department=, guardian=:guardian, phone=:phone WHERE std_id=:std_id';
   $statement = $db->prepare($sql);
   if ($statement->execute([':first_name' => $fname, ':last_name' => $lname, ':gender' => $gender, ':phone_number' => $phone, ':reg_number' => $number, ':email' => $email, ':department' => $department, ':guardian' => $guardian, ':phone' =>$phoneg, ':std_id' => $std_id])) {
-    header("Location: /crud");
+    header("Location: adminhome.php");
   }
   else{
       echo" update not";
