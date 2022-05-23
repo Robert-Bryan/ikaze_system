@@ -5,7 +5,7 @@ if($db)
     echo"";
 }
 else{
-    echo "Not Connect";
+    echo "Not ";
 }
 
 ?>
