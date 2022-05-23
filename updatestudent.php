@@ -20,7 +20,7 @@ if(isset($_GET['std_id']))
 
 ?>
 
-    <form action="" method="post">
+    <form action="update1.php" method="post">
     <table>
             <tr>
             <td width="100px " height="50px"><b><input type="text" name="std_id"  value="<?= $res->std_id; ?>"></b></td>
